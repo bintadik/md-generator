@@ -106,5 +106,5 @@ if __name__=='__main__':
     print(response.text)
 
     # Save the content to a file
-    save_to_markdown(response.text, filename='README.md')
+    save_to_markdown(response.text, filename=folder_path/"README.md")
 
