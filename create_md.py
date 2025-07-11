@@ -92,9 +92,10 @@ if __name__=='__main__':
         code_resume= f"{code_resume}\n{file}\n{code}\n"
 
     contents =f"""
-        You are markdown file generator for github. create markdown readme file the request.Use mermaid markdown to show flow. do not include explanations etc.Do not rewrite File Content.
+        You are markdown file generator for github. create markdown readme file the request.Use mermaid markdown to show flow. DO NOT WRITE DETAIL CODE OF THE FILES.
         Request:
         {code_resume}
+        IF THERE IS README.md file there use it as example reference only.
         """ 
     print(contents)
 
