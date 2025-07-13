@@ -53,7 +53,7 @@ The script requires your Google Gemini API key to function.
 Create a file named `.env` in the root directory of this project (`md generator`) and add your Google Gemini API key:
 
 ```
-GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 Replace `YOUR_GEMINI_API_KEY` with your actual API key.
 
